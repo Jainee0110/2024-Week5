@@ -1,3 +1,29 @@
-.index-title {
-  font-size: 100px;
+.material-symbols-filled {
+  font-variation-settings:
+  'FILL' 1,
+}
+main{
+  padding: 32px;
+  width: 77%;
+}
+small{
+  font-size: 12px;
+}
+.assignment{
+  &-list{
+    width: calc(36% - 11px);
+    border-radius: 2px;
+  }
+  &-card{
+    width: calc(64% - 5px);
+    .card{
+        border-radius: 2px;
+        &-text{
+        font-size: 14px;
+      }
+    }
+  }
+}
+sidebar{
+  width: 23%;
 }
